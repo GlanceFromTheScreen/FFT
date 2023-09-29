@@ -15,7 +15,7 @@ void FFT::inverse(std::vector<std::complex<double>>& X) {
     }
 }
 
-// быстрое преобразование Фурье для входных данных размера 2^n
+// быстрое преобразование Фурье для входных данных размера 2^n (не используется)
 void FFT::fft(std::vector<std::complex<double>>& x, bool inverse) {
     int N = x.size();
     if (N <= 1) {
